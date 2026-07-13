@@ -1,0 +1,5 @@
+# CODEOWNERS
+# Each line is a pattern followed by one or more owners.
+# Owners are automatically requested for review when someone opens a PR.
+
+* @QuantFerox
