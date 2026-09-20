@@ -4,4 +4,4 @@ class Solution(object):
             for y in range(x + 1, len(nums)):
                 if nums[x] + nums[y] == target:
                     return [x, y]
-        return None;
+        return None
