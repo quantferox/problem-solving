@@ -1,4 +1,4 @@
 void SortColors(int[] nums)
 {
-    Array.Sort(nums);
+  Array.Sort(nums);
 }

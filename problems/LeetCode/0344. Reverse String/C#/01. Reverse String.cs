@@ -1,4 +1,4 @@
 void ReverseString(char[] s)
 {
-    Array.Reverse(s);
+  Array.Reverse(s);
 }

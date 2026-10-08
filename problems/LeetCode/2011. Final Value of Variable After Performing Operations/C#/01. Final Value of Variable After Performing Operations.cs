@@ -1,16 +1,16 @@
 int FinalValueAfterOperations(string[] operations)
 {
-    int initValue = 0;
-    foreach (string operation in operations)
+  int initValue = 0;
+  foreach (string operation in operations)
+  {
+    if (operation == "--X" || operation == "X--")
     {
-        if (operation == "--X" || operation == "X--")
-        {
-            initValue--;
-        }
-        else
-        {
-            initValue++;
-        }
+      initValue--;
     }
-    return initValue;
+    else
+    {
+      initValue++;
+    }
+  }
+  return initValue;
 }

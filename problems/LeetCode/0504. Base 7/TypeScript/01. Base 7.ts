@@ -1,3 +1,3 @@
 function convertToBase7(num: number): string {
-    return num.toString(7);
+  return num.toString(7);
 };

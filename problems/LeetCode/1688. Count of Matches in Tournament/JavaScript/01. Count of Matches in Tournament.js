@@ -1,3 +1,3 @@
 var numberOfMatches = function (n) {
-    return n - 1;
+  return n - 1;
 };

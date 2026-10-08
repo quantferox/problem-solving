@@ -4,5 +4,5 @@
  * @return {number} a random integer in the range 1 to 7
  */
 var rand10 = function () {
-    return ((Math.floor(Math.random() * 10)) + 1);
-}
+  return ((Math.floor(Math.random() * 10)) + 1);
+};

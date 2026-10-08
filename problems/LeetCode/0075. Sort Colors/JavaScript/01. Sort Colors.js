@@ -1,3 +1,3 @@
 var sortColors = function (nums) {
-    nums.sort();
+  nums.sort();
 };

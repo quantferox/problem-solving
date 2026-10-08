@@ -1,12 +1,12 @@
 /**
- * @param {String} str 
+ * @param {String} str
  * @returns Boolean value unique or not
  */
 const hasUniqueCharacters = (str) => {
-    const strArr = str.split("");
-    const hashedSet = new Set(strArr);
-    return strArr.length === hashedSet.size;
-}
+  const strArr = str.split("");
+  const hashedSet = new Set(strArr);
+  return strArr.length === hashedSet.size;
+};
 
 console.log(hasUniqueCharacters("abcdef"));      // true
 console.log(hasUniqueCharacters("aabcdef"));     // false

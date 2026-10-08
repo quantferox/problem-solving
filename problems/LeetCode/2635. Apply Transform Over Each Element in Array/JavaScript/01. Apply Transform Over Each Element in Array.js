@@ -1,3 +1,3 @@
 var map = function (arr, fn) {
-    return arr.map(fn);
+  return arr.map(fn);
 };
